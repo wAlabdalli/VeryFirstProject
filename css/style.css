@@ -1,3 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color:rgb(174, 191, 193);
+    margin-bottom:0 ;
+}
+
+.center{
+    text-align: center;
+}
+
+#bg{
+    height: 100vh;
+    background-image:url(../images/wow\ letter.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    /* color:rgb(42, 56, 60) ; */
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(244, 213, 166) ;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px black;
+  }
+
+header{
+    color: rgb(42, 56, 60);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img.logo{
+    width: 60px;
+    margin:10px;
+}
+
+nav ul.navList{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.navList li{
+    display: inline;
+    padding: 5px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcomeSection{
+    padding: 64px 10px;
+}
+
+.img{
+    width: 140px;
+}
+
+#Book-Reviews .BRS{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Book-Reviews .BRS .card{
+    background-color:rgb(244, 213, 166 , 0.8);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 16px;
+    width: 350px;
+}
+#Book-Reviews .BRS .card .img{
+    margin: 0 85px;
+}
+
+#Book-Reviews .BRS .card:hover{
+    box-shadow: 0 0 50px rgb(42, 56, 60, 0.6);
+}
+
+.description{
+    color:rgb(78, 128, 108);
+}
+
+footer{
+    background-color:rgb(78, 103, 108) ;
+    color:rgb(244, 213, 166 );
+    margin: 0;
+    padding: 16px;
+}
+
+footer span{
+    color: rgb(174, 191, 193);
 }
