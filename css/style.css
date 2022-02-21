@@ -80,6 +80,19 @@ nav ul.navList li{
     width: 140px;
 }
 
+.infocard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.infocard h1{
+    color: rgb(78, 103, 108);
+    font-size: 40px;
+    font-style: italic;
+}
+
 #Book-Reviews .BRS{
     padding: 50px;
     display: flex;
