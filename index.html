@@ -21,35 +21,103 @@
  
        <!-- nav items -->
        <ul class="navList">
-         <li><a href="#work">My Work</a></li>
+         <li><a href="#best memories">Best memories</a></li>
          <li><a href="#contact">Contact</a></li>
-         <li>
-           <a href="https://youtube.com/c/hassanalshammari" target="_blank"
-             >My Youtube</a
-           >
-         </li>
        </ul>
      </nav>
 
      <!-- Main section -->
      <main>
          <!-- WELCOME section -->
-         <section id="welcomeSection"></section>
+      <section id="welcomeSection">
+        <!-- I want to put a colored background. I want to overlay it with dark layer with opacity 0.5.   -->
+        <div class="overlay">
+          <!-- title -->
+          <h3>hello world!!!</h3>
+          <!-- some text -->
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
+            animi quos a! Pariatur, nisi! Debitis minima eos necessitatibus
+            facere eligendi esse velit saepe ipsum in labore. Illo nemo cum aut.
+          </p>
+      </section>
 
-         <!-- myWork section -->
-         <section id="work"></section>
+         <!-- my best memories section -->
+         <section id="BM">
+            <h3 id="card-title">Best THREE Memories:</h3>
+            <article class="card">
+                <img src="./images/ركائز.jpg" alt="Final Gathering for sesion 3.">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis
+                    a asperiores ut in unde corporis et quibusdam, rem distinctio iusto ullam 
+                    cum ex, tempora aliquid voluptatem animi earum enim iste facilis dignissimos commodi! 
+                    Modi quis obcaecati excepturi doloremque unde! Dolores fugit odio consequatur beatae officia
+                    quae est eligendi doloribus?
+                </p>     
+            </article>
 
+            <article class="card">
+                <img src="./images/friend.jpg" alt="Gathering at Beach">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis
+                    a asperiores ut in unde corporis et quibusdam, rem distinctio iusto ullam 
+                    cum ex, tempora aliquid voluptatem animi earum enim iste facilis dignissimos commodi! 
+                    Modi quis obcaecati excepturi doloremque unde! Dolores fugit odio consequatur beatae officia
+                    quae est eligendi doloribus?
+                </p>         
+            </article>
+
+            <article class="card">
+                <img src="./images/travel.jpg" alt="Travel to Makkah">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis
+                    a asperiores ut in unde corporis et quibusdam, rem distinctio iusto ullam 
+                    cum ex, tempora aliquid voluptatem animi earum enim iste facilis dignissimos commodi! 
+                    Modi quis obcaecati excepturi doloremque unde! Dolores fugit odio consequatur beatae officia
+                    quae est eligendi doloribus?
+                </p>    
+            </article>
+         </section>
          <!-- Contact me section -->
-         <section id="contact"></section>
+         <section id="contact">
+             <div class="center">
+                 <h2> Contact Me!</h2>
+                 <p>Feel Free to contact me anytime, anywhere.</p>
+             </div>
+         </section>
 
+        <form>
+            <div class="form-group">
+                <label for="contactName">Your Name:</label>
+                <input
+                  type="text"
+                  name="contactName"
+                  placeholder="Name"
+                  id="contactName"
+                />
+            </div>
+      
+            <div class="form-group">
+                <label for="contactEmail">Your Email:</label>
+                <input type="email" name="contactEmail" id="contactEmail" />
+            </div>
+      
+            <div class="form-group">
+                <label for="contactMSG">Your MSG:</label>
+                <textarea name="contactMSG" id="contactMSG"></textarea>
+            </div>
+        
+            <div class="form-group">
+                <button>Send</button>
+            </div>
+        </form>
+    </main>
 
-     </main>
-
-     <footer class="center">
-        Copyright &copy; 2022. Made with <span>&hearts;</span> By
-        <a href="https://instagram.com/w.alabdalli" target="_blank"
-          >@w.alabdalli</a
-        >
-      </footer>
-</body>
+        <footer class="center">
+            Copyright &copy; 2022. Made with <span>&hearts;</span> By
+            <a href="https://instagram.com/w.alabdalli" target="_blank"
+            >@w.alabdalli</a
+            >
+        </footer>
+    </body>
 </html>
