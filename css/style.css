@@ -33,9 +33,14 @@ a:hover{
     color:rgb(244, 213, 166) ;
 }
 
+button{
+    background-color: rgb(244, 213, 166);
+    border-radius: 4px;
+}
 button:hover {
     cursor: pointer;
-    box-shadow: 0 0 4px black;
+    box-shadow: 0 0 2px black;
+    padding: 8px 16px;
   }
 
 header{
@@ -158,6 +163,10 @@ nav ul.navList li{
     #contactForm{
         width: 300px;
     }
+}
+
+.form-group{
+    padding: 2px;
 }
 
 footer{
