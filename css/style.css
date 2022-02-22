@@ -23,6 +23,14 @@ body{
     background-position: center;
     background-size: cover;
 }
+
+@media (max-width:420px){
+    #bg{
+        background-size: contain;
+    }
+
+}
+
 a{
     /* color:rgb(42, 56, 60) ; */
     color: inherit;
@@ -36,7 +44,9 @@ a:hover{
 button{
     background-color: rgb(244, 213, 166);
     border-radius: 4px;
+    color: #2a383c;
 }
+
 button:hover {
     cursor: pointer;
     box-shadow: 0 0 2px black;
