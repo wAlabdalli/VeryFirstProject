@@ -23,6 +23,7 @@
     
           <!-- nav items -->
           <ul class="navList">
+            <li><a href="#infocard">About Website</a></li>
             <li><a href="#Book-Reviews">Book Reviews</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -41,9 +42,9 @@
          <!-- WELCOME section -->
       <section id="welcomeSection">
         <!-- I want to put a colored background. I want to overlay it with dark layer with opacity 0.5.   -->
-        <div class="infocard">
+        <div class="infocard" id="infocard">
           <!-- title -->
-          <h1>about website</h1>
+          <h1>About Website</h1>
           <!-- some text -->
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio
@@ -54,11 +55,12 @@
 
          <!-- my Book Reviews section -->
          <section id="Book-Reviews">
-            <h3 id="card-title" class="center">Best THREE Books:</h3>
+            <h1 id="card-title" class="center">Best THREE Books:</h1>
 
             <div class="BRS">
                 <article class="card">
                     <img src="./images/alteeh.jpg" class="img">
+                    <h2 class="center">Kharayit altih</h2>
                     <p class="description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis
                         a asperiores ut in unde corporis et quibusdam, rem distinctio iusto ullam 
@@ -70,6 +72,7 @@
     
                 <article class="card">
                     <img src="./images/animal farm.jpg" class="img">
+                    <h2 class="center">Animal Farm</h2>
                     <p class="description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis
                         a asperiores ut in unde corporis et quibusdam, rem distinctio iusto ullam 
@@ -81,6 +84,7 @@
     
                 <article class="card">
                     <img src="./images/tree.jpg" class="img">
+                    <h2 class="center">My sweet orange tree</h2>
                     <p class="description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis
                         a asperiores ut in unde corporis et quibusdam, rem distinctio iusto ullam 
@@ -99,9 +103,9 @@
                  <h2> Contact Me!</h2>
                  <p>Feel Free to contact me anytime, anywhere.</p>
              </div>
-         </section>
 
-        <form>
+             
+        <form id="contactForm">
             <div class="form-group">
                 <label for="contactName">Your Name:</label>
                 <input
@@ -126,6 +130,7 @@
                 <button>Send</button>
             </div>
         </form>
+        </section>
     </main>
 
         <footer class="center">

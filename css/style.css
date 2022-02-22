@@ -9,6 +9,7 @@ html{
 body{
     background-color:rgb(174, 191, 193);
     margin-bottom:0 ;
+    color: #2a383c;
 }
 
 .center{
@@ -93,6 +94,12 @@ nav ul.navList li{
     font-style: italic;
 }
 
+.infocard p{
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+}
+
 #Book-Reviews .BRS{
     padding: 50px;
     display: flex;
@@ -115,8 +122,42 @@ nav ul.navList li{
     box-shadow: 0 0 50px rgb(42, 56, 60, 0.6);
 }
 
+@media (max-width: 1156px){
+    #Book-Reviews .BRS{
+        flex-direction: column;
+    }
+
+    #Book-Reviews .BRS .card{
+        margin-bottom: 30px;
+    }
+}
+
 .description{
     color:rgb(78, 128, 108);
+}
+
+#contact{
+    padding: 64px 10px
+}
+
+#contact h2{
+    color:rgb(78, 128, 108);
+    text-shadow: 0 0  rgb(42, 56, 60);
+}
+
+#contactForm{
+    width: 30%;
+    margin: 34px auto 0;
+    box-shadow: 0 0 20px rgb(42, 56, 60, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+@media (max-width: 700px){
+    #contactForm{
+        width: 300px;
+    }
 }
 
 footer{
