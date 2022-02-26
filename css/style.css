@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -24,11 +26,15 @@ body{
     background-size: cover;
 }
 
-@media (max-width:420px){
+@media (max-width:840px){
     #bg{
-        background-position: right;
-        background-size: cover;
+        /* background-position: right; */
+        background-size: contain;
     }
+}
+
+#bg span{
+    font-family: 'Tajawal';
 }
 
 a{
@@ -137,7 +143,7 @@ nav ul.navList li{
     box-shadow: 0 0 50px rgb(42, 56, 60, 0.6);
 }
 
-@media (max-width: 1156px){
+@media (max-width: 1182px){
     #Book-Reviews .BRS{
         flex-direction: column;
     }
